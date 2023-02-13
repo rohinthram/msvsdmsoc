@@ -1,0 +1,77 @@
+magic
+tech sky130A
+timestamp 1676261081
+<< nwell >>
+rect -192 142 182 295
+<< nmos >>
+rect -26 -114 4 -16
+<< pmos >>
+rect -26 170 4 268
+<< ndiff >>
+rect -162 -35 -26 -16
+rect -162 -99 -136 -35
+rect -96 -99 -26 -35
+rect -162 -114 -26 -99
+rect 4 -33 155 -16
+rect 4 -97 87 -33
+rect 127 -97 155 -33
+rect 4 -114 155 -97
+<< pdiff >>
+rect -162 253 -26 268
+rect -162 190 -135 253
+rect -91 190 -26 253
+rect -162 170 -26 190
+rect 4 251 155 268
+rect 4 188 91 251
+rect 135 188 155 251
+rect 4 170 155 188
+<< ndiffc >>
+rect -136 -99 -96 -35
+rect 87 -97 127 -33
+<< pdiffc >>
+rect -135 190 -91 253
+rect 91 188 135 251
+<< poly >>
+rect -26 268 4 281
+rect -26 64 4 170
+rect -26 35 -21 64
+rect -2 35 4 64
+rect -26 -16 4 35
+rect -26 -139 4 -114
+<< polycont >>
+rect -21 35 -2 64
+<< locali >>
+rect -139 313 143 348
+rect -138 264 -91 313
+rect -144 253 -80 264
+rect -144 190 -135 253
+rect -91 190 -80 253
+rect -144 183 -80 190
+rect 82 251 146 262
+rect 82 188 91 251
+rect 135 188 146 251
+rect -142 181 -101 183
+rect 82 181 146 188
+rect 84 72 125 181
+rect -208 64 4 72
+rect -208 35 -21 64
+rect -2 35 4 64
+rect -208 26 4 35
+rect 84 35 219 72
+rect 84 -25 125 35
+rect -145 -35 -83 -28
+rect -145 -99 -136 -35
+rect -96 -99 -83 -35
+rect -145 -108 -83 -99
+rect 76 -33 140 -25
+rect 76 -97 87 -33
+rect 127 -97 140 -33
+rect 76 -106 140 -97
+rect -135 -186 -98 -108
+rect -135 -213 155 -186
+<< labels >>
+rlabel locali 193 58 193 58 1 out
+rlabel locali 16 331 16 331 1 vdd
+rlabel locali 11 -202 11 -202 1 vss
+rlabel locali -120 45 -120 45 1 in
+<< end >>
